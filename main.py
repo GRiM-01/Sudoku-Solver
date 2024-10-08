@@ -9,9 +9,9 @@ model = InitModel()
 if __name__ == "__main__":
     print("Processing...")
 
-    img_name = '4.jpg'
+    img_name = '4.jpg' # Replace image name
 
-    img = cv2.imread(f"C:/Users/GRiM/Python Projects/Sudoku Project/Images/{img_name}") # Replace Path
+    img = cv2.imread(f"C:/Users/GRiM/Python Projects/Sudoku Project/Images/{img_name}") # Replace path
     img = cv2.resize(img, (img_width, img_height))
     blank_img = np.zeros((img_height, img_width, 3), np.uint8)
 
